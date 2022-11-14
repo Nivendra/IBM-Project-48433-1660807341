@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "1b30ea5f-e84e-4ea1-92b4-c73b68b91e30", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "ca1cfc0c-9550-4f88-bd8c-f5f1cd2ce705", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    <title>Document</title>
+</head>
+<body style="background-color: grey;">
+    <h2>DADA Assistant</h2>
+    <a href="https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fau-syd.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-6a642726-2589-4609-89f8-d7ea7c4bf2b1%3A%3A3fc99d22-1ec4-4920-aa68-15560af0f2d6&integrationID=75511922-07f4-4341-970f-fe3e995f3942&region=au-syd&serviceInstanceID=6a642726-2589-4609-89f8-d7ea7c4bf2b1"></a>
+</body>
+</html>
